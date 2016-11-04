@@ -15,6 +15,9 @@ int op_dumpmsg_to_file(char * module_name, char * proc_name, const char * filena
 #define LOG(module_name, proc_name, x...)
 #endif
 
+
+
+
 extern pthread_mutex_t ca_log_lock;
 
 #endif
